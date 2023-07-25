@@ -1,0 +1,69 @@
+.main-banner 
+{
+    background-image: url('../images/banners/virtual-reality2.jpg');
+    background-position: left;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 0 5%;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+
+.main-banner .content {
+    width: 37%;
+    padding-top: 20%;
+    /* text-align: right; */
+}
+
+.main-banner .content h1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+.main-banner .content a {
+    padding: 7px 20px;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.main-banner .content a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.main-banner .social-icons {
+    position: absolute;
+    bottom: 50%;
+    left: 5%;
+    transform: translate(0, -50%);
+}
+
+.main-banner .social-icons {
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.second-section {
+    background-color: var(--purple);
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .main-banner{
+        background-image: url('../images/banners/virtual-reality2-mobile.jpg');
+    }
+
+    .main-banner .content {
+        width: 80%;
+        padding-top: 50%;
+    }
+
+    .main-banner .content h1 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+}
