@@ -5,6 +5,13 @@ header.top-header
     align-items: center;
     justify-content: space-between;
     padding: 1% 5%;
+    transition: .3s;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .logo 
@@ -50,16 +57,12 @@ header.top-header
 
 .header-on-top {
     position: absolute;
-    top: 0;
-    left: 0;
     background-color: rbga(0,0,0,0);
 }
 
 .header-on-scroll {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(255,255,255,.1);
+    position: fixed!important;
+    background-color: rgba(255,255,255,.1)!important;
     backdrop-filter: blur(5px);
 }
 
