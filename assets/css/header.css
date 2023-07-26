@@ -55,6 +55,8 @@ header.top-header
     gap: 20px
 }
 
+.top-header nav ul li { font-weight: bold; }
+
 .header-on-top {
     position: absolute;
     background-color: rbga(0,0,0,0);
@@ -62,7 +64,7 @@ header.top-header
 
 .header-on-scroll {
     position: fixed!important;
-    background-color: rgba(255,255,255,.1)!important;
+    background-color: rgba(0,0,0,.5)!important;
     backdrop-filter: blur(5px);
 }
 
